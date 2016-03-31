@@ -11,7 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-
+   etckeeper
+   grub
 
 Indices and tables
 ==================
