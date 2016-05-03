@@ -7,6 +7,7 @@ Para criação de um novo usuário para você, utilize o seguinte comando::
   > --base-dir /home \
   > --comment "Nome Sobrenome,matricula,dd/mm/aaaa,sexo" \
   > --create-home \
+  > --shell /bin/bash \
   > --password $(openssl passwd -1 -salt xyz sua_senha) \
   > nome
 
@@ -16,6 +17,7 @@ Exemplo::
   > --base-dir /home \
   > --comment "Junior Silva,20164345345345,12/07/1983" \
   > --create-home \
+  > --shell /bin/bash \
   > --password $(openssl passwd -1 -salt xyz 123456) \
   > junior
 
