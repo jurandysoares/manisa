@@ -15,7 +15,7 @@ Exemplo::
 
   sudo useradd \
   > --base-dir /home \
-  > --comment "Junior Silva,20164345345345,12/07/1983" \
+  > --comment "Junior Silva,20164345345345,12/07/1983,M" \
   > --create-home \
   > --shell /bin/bash \
   > --password $(openssl passwd -1 -salt xyz 123456) \
